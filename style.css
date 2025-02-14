@@ -5,7 +5,6 @@ body{
 }
 
 .header{
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
 }
@@ -54,7 +53,16 @@ ul{
     justify-content: center;
     align-items: center;
     flex: 1;
-    padding: 100px 100px;
+    padding: 50px 100px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #24A0ED;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 /*Below is the header main content's image */
@@ -88,4 +96,37 @@ ul{
 
 #firstpara{
     font-size: 18px;
+}
+
+/*-------------------------------------*/
+
+/*Below is the midsection*/
+
+.midsection{
+    display: flex;
+    border: 1px solid black;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.midsectionimgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.midsectionimgs img{
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #3882f6;
+}
+
+.midsecheader, .midsectionimg{
+    text-align: center;
 }
