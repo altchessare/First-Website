@@ -104,7 +104,6 @@ button{
 
 .midsection{
     display: flex;
-    border: 1px solid black;
     padding: 20px 0px;
     justify-content: center;
     align-items: center;
@@ -129,4 +128,36 @@ button{
 
 .midsecheader, .midsectionimg{
     text-align: center;
+}
+
+/*Below is the quote */
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    background-color: #E5E7EB;
+    color: #1f2937;
+    margin: 0 200px;
+}
+
+.quotecontent{
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+    margin: 0;
+}
+
+.quoteitself{
+    font: italic 24px 'Roboto', sans-serif;
+}
+
+.quoteauthor{
+    margin: 0;
+    padding: 0;
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bolder;
 }
