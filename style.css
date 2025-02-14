@@ -1,9 +1,0 @@
-.header{
-    border: 2px red solid;
-    display: flex;
-    flex-direction: column;
-}
-
-.headercontent{
-    border: 2px green solid;
-}
