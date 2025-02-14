@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Below is header's navigation bar */
+
+.headertop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.headertop,.maincontent{
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+
+.logo, a{
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#headerlogoimg{
+    width: auto;
+    height: 40px;
+    border-radius: 100px;
+}
+
+ul{
+    gap: 10px;
+    list-style: none;
+    display: flex;
+}
+
+/*Below is header main content */
+
+.maincontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 100px 100px;
+}
+
+/*Below is the header main content's image */
+
+.maincontimg, .mainconttext{
+    flex: 1;
+}
+
+.maincontimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgplaceholder{
+    padding: 50px;
+}
+
+/*Below is the header main content's text */
+
+.mainconttext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#nameofwebsite{
+    font-size: 48px;
+}
+
+#firstpara{
+    font-size: 18px;
+}
